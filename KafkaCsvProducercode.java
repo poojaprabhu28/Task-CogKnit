@@ -17,6 +17,7 @@ public class KafkaCsvProducer {
     private static String KafkaTopic = null;
     private static String CsvFile = null;
 
+    //defining the Producer Configurations using the Properties class
     private Producer<String, String> ProducerProperties(){
         Properties properties = new Properties();
         properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, KafkaBrokerEndpoint);
@@ -38,6 +39,7 @@ public class KafkaCsvProducer {
         kafkaProducer.PublishMessages();
     }
 
+    //Read the rows from csv and write messages
     private void PublishMessages(){
         final Producer<String, String> CsvProducer = ProducerProperties();
         try{
