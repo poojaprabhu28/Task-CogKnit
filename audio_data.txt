@@ -1,0 +1,19 @@
+Name,Artist,Genre,Rating
+Exotic,Priyanka Chopra,pop,6
+What about us,Pink,pop,8
+Kaam 25,Divine,Rap,10
+Safe and Sound,Taylor Swift,Acoustic,8
+Dangerous,David Guetta,Rock,9
+Counting Stars,One Republic,Rock,10
+Birthday,Selena Gomez,Pop,8
+Thousand Years,Christina Perri,Acoustic,7
+I Knew You Were trouble,Taylor Swift,Pop,9
+Sage,Ritviz,indie,10
+Bodak Yellow,Cardi B,rap,8
+Sorry not Sorry,Demi Lovato,Pop,9
+Confident,Demi Lovato,Rock,9
+Eraser,Ed Sheeran,Acoustic,9
+Wake me Up,Avicii,Pop,10
+Lover,Taylor Swift,acoustic,9
+Who That B,Jessi,Rap,9
+Choo Lo,The Local Train,Indie,10
