@@ -1,6 +1,15 @@
 # Task-CogKnit
-Fetching data from audio files and manipulating it using Kafka, Hbase, SOLR and Spark
+This Java application fetches audio metadata from .csv file and pushes it into Kafka through a Kafka Producer
 
-In order to run this code we first need to create a topic, Hello-Kafka, using the following command on our Kafka server (This is for Windows system):
+Prerequisites:
+1. Create Kafka topics with topic_name as follows- "Rap", "Pop", "Rock, "Acoustic, "Unknown-genre"
+    Use the following command to do so
+    ./kafka-topics.bat --create --zookeeper 127.0.0.1:2181 --replication-factor 1 --partitions 1 --topic topic_name
 
-    ./kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic Hello-Kafka
+2. Use the sample data file provided and insert the related filepath to it before running the application
+
+3. Software and versions used:
+    Java - version 1.8.0_191
+    Apache Kafka - version 2.5.0
+    slf4j simple - version 1.7.30
+
