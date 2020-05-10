@@ -3,7 +3,7 @@ This Java application fetches audio metadata from .csv file and pushes it into K
 
 Prerequisites:
 1. Create Kafka topics with topic_name as follows- "Rap", "Pop", "Rock, "Acoustic, "Unknown-genre"
-    Use the following command to do so
+    Use the following command to do so (This command applies to Windows OS. Please check for the corresponding commands if any other OS is being   used)
     ./kafka-topics.bat --create --zookeeper 127.0.0.1:2181 --replication-factor 1 --partitions 1 --topic topic_name
 
 2. Use the sample data file (audio_data.txt) provided and insert the related filepath to it before running the application
